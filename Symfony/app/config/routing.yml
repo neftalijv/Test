@@ -1,0 +1,19 @@
+test_test:
+    resource: "@TestTestBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+estimator_estimator:
+    resource: "@EstimatorEstimatorBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+estimator_user:
+    resource: "@EstimatorUserBundle/Resources/config/routing.xml"
+    prefix:   /estimator
+
+nef_hello:
+    resource: "@NefHelloBundle/Resources/config/routing.xml"
+    prefix:   /
+
+
